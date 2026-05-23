@@ -5,9 +5,10 @@ Website portofolio profesional dengan React.js, menampilkan pengalaman sebagai O
 ## Fitur
 
 - ✨ Animasi fade-in smooth saat scroll
-- 🎨 Desain profesional dengan tema hitam & coklat
+- 🎨 Desain Dark Navy theme dengan aksen hijau, teal, dan orange
 - 📱 Responsive design
 - 🚀 Performa optimal dengan React + Vite
+- 🔗 Social media links (Instagram & LinkedIn)
 
 ## Setup
 
@@ -18,14 +19,11 @@ npm install
 
 2. **PENTING - Setup Gambar Profile:**
    
-   Salin gambar profile Anda ke folder `public/` dengan nama `profile.jpg`
+   Salin gambar profile Anda ke folder `public/` dengan nama `profile.png`
    
    ```bash
-   # Dari Windows, salin file:
-   # C:\Users\syabani\Documents\WhatsApp Image 2026-05-09 at 13.37.46.jpeg
-   # 
-   # Ke folder:
-   # /opt/portfolio-imron/public/profile.jpg
+   # Dari Windows, salin file ke:
+   # /opt/portfolio-imron/public/profile.png
    ```
 
    **Rekomendasi untuk gambar profile:**
@@ -35,7 +33,7 @@ npm install
    - **Saran pakaian:** Kemeja formal atau polo shirt dengan warna solid (putih, biru, atau abu-abu) akan terlihat lebih profesional
    - **Saran pose:** Posisi menghadap kamera dengan sedikit senyum, postur tegak
    - Resolusi minimal: 600x800 pixels
-   - Format: JPG atau PNG
+   - Format: PNG atau JPG
 
 3. Jalankan development server:
 ```bash
@@ -63,7 +61,7 @@ portfolio-imron/
 │   ├── App.jsx
 │   └── App.css
 └── public/
-    └── profile.jpg            # Gambar profile (HARUS DITAMBAHKAN)
+    └── profile.png            # Gambar profile (HARUS DITAMBAHKAN)
 
 ```
 
@@ -87,11 +85,11 @@ Edit variabel CSS di `src/App.css`:
 
 ```css
 :root {
-  --bg-dark: #0a0a0a;
-  --bg-secondary: #1a1410;
-  --brown-primary: #8b6f47;
-  --brown-light: #a68a64;
-  --brown-dark: #6b5536;
+  --bg-dark: #0a0e27;
+  --bg-secondary: #1a1f3a;
+  --accent-green: #22c55e;
+  --accent-teal: #14b8a6;
+  --accent-orange: #fb923c;
 }
 ```
 
