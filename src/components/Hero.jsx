@@ -4,11 +4,11 @@ import { useFadeIn } from '../hooks/useFadeIn'
 const quickFacts = [
   {
     label: 'Current focus',
-    value: 'Custom Odoo, integrasi, dan report',
+    value: 'Aplikasi bisnis, integrasi, dan workflow',
   },
   {
     label: 'Experience',
-    value: 'Sejak 2021 di PT Alpha Solusi Teknologi',
+    value: 'Sejak 2021 membangun solusi untuk klien',
   },
   {
     label: 'Strength',
@@ -32,11 +32,11 @@ const Hero = () => {
         <div className="hero-copy">
           <span className="eyebrow">Portfolio Imron Syabani</span>
           <h1>
-            Odoo developer untuk sistem kerja yang rapi dan cepat.
+            Developer untuk sistem kerja yang rapi, cepat, dan relevan.
           </h1>
           <p className="hero-lead">
-            Saya fokus pada modul, workflow, report, dan integrasi Odoo agar
-            operasional perusahaan lebih efisien.
+            Saya membangun aplikasi, integrasi, dan alur kerja digital agar
+            operasional tim berjalan lebih efisien.
           </p>
 
           <div className="hero-actions">
@@ -83,7 +83,7 @@ const Hero = () => {
             </div>
 
             <div className="profile-caption">
-              <p className="profile-role">Odoo Developer</p>
+              <p className="profile-role">Developer</p>
               <div className="social-links">
                 <a
                   href="https://instagram.com/syabani._"

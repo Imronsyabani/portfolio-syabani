@@ -4,14 +4,14 @@ import { projects } from '../data/projects'
 
 const experienceItems = [
   {
-    role: 'Odoo Developer',
+    role: 'Developer',
     company: 'PT Alpha Solusi Teknologi (Alphasoft)',
     period: 'Juni 2021 - Sekarang',
     points: [
       'Mengembangkan modul Purchase, Accounting, Sales, Manufacturing, Inventory, HR, dan Portal User.',
       'Mengerjakan custom field, workflow, dan report sesuai kebutuhan klien.',
       'Menangani debugging, optimasi performa, dan integrasi seperti Jubelio.',
-      'Terbiasa bekerja lintas versi Odoo dan menjaga solusi tetap stabil.',
+      'Terbiasa menjaga solusi tetap stabil di berbagai kebutuhan klien.',
     ],
   },
   {
@@ -28,7 +28,7 @@ const experienceItems = [
 
 const metrics = [
   { value: '29+', label: 'enterprise client delivered' },
-  { value: '10+', label: 'versi Odoo yang ditangani' },
+  { value: '10+', label: 'scope modul dan workflow' },
   { value: 'End-to-end', label: 'dari requirement sampai handover' },
 ]
 
@@ -83,10 +83,10 @@ const Experience = () => {
       >
         <div className="section-heading">
           <span className="eyebrow">Pengalaman kerja</span>
-          <h2>Pengalaman yang terasa seperti partner implementasi</h2>
+          <h2>Pengalaman membangun sistem yang dipakai tim operasional</h2>
           <p>
             Saya terbiasa bekerja di area penting untuk bisnis: transaksi,
-            approval, stok, accounting, dan reporting.
+            approval, stok, accounting, reporting, dan integrasi.
           </p>
         </div>
 

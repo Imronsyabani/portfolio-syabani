@@ -1,6 +1,6 @@
 # Portfolio Imron Syabani
 
-Website portofolio profesional dengan React.js, menampilkan pengalaman sebagai Odoo Developer.
+Website portofolio profesional dengan React.js, menampilkan pengalaman sebagai developer.
 
 ## Fitur
 
@@ -23,7 +23,7 @@ npm install
    
    ```bash
    # Dari Windows, salin file ke:
-   # /opt/portfolio-imron/public/profile.png
+   # /opt/portfolio-syabani/public/profile.png
    ```
 
    **Rekomendasi untuk gambar profile:**
@@ -48,7 +48,7 @@ npm run build
 ## Struktur Project
 
 ```
-portfolio-imron/
+portfolio-syabani/
 ├── src/
 │   ├── components/
 │   │   ├── Hero.jsx          # Section hero dengan profile

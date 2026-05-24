@@ -2,10 +2,10 @@ import { useFadeIn } from '../hooks/useFadeIn'
 
 const skillGroups = [
   {
-    title: 'Odoo stack',
+    title: 'Application development',
     description:
-      'Terbiasa menangani custom module, views, access rights, report, dan alur bisnis.',
-    items: ['Odoo framework', 'OWL', 'Python', 'QWeb reporting'],
+      'Terbiasa membangun fitur, workflow, report, dan alur bisnis sesuai kebutuhan tim.',
+    items: ['Python', 'JavaScript', 'Workflow design', 'Reporting'],
   },
   {
     title: 'Backend and data',
@@ -24,7 +24,7 @@ const skillGroups = [
 const strengths = [
   'Mengubah kebutuhan operasional jadi workflow yang realistis',
   'Menjaga implementasi tetap rapi meski banyak request',
-  'Membuat report yang benar-benar dipakai user',
+  'Membuat fitur dan report yang benar-benar dipakai user',
 ]
 
 const additionalCapabilities = [
@@ -45,9 +45,9 @@ const Skills = () => {
       >
         <div className="section-heading">
           <span className="eyebrow">Keahlian utama</span>
-          <h2>Bagian yang paling sering saya kerjakan di Odoo</h2>
+          <h2>Bagian yang paling sering saya kerjakan sebagai developer</h2>
           <p>
-            Fokus saya bukan hanya coding, tapi memastikan modul, report, dan
+            Fokus saya bukan hanya coding, tapi memastikan fitur, data, dan
             integrasi benar-benar membantu kerja tim.
           </p>
         </div>
@@ -82,8 +82,8 @@ const Skills = () => {
             <span className="eyebrow">Additional capabilities</span>
             <h2>Cybersecurity awareness dan investigasi teknis juga jadi bagian cara saya bekerja</h2>
             <p>
-              Fokus utama saya tetap di Odoo development, tapi saya juga terbiasa
-              memeriksa alur request, integrasi, dan masalah teknis.
+              Selain development inti, saya juga terbiasa memeriksa alur
+              request, integrasi, dan masalah teknis.
             </p>
           </div>
 
