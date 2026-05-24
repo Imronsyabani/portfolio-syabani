@@ -121,7 +121,7 @@ const Experience = () => {
 
         <div className="section-heading section-heading-compact">
           <span className="eyebrow">Selected clients</span>
-          <h2>Beberapa organisasi yang pernah saya dukung</h2>
+          <h2>Beberapa Projek Implementasi Odoo Yang Saya Ikuti</h2>
         </div>
 
         <div className="projects-grid">
